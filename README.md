@@ -1,4 +1,15 @@
-# valley_of_the_dead_game
+It is a basic role play game where you have to defeat the army of each level
+till you finish the game.
+
+There are three types of rooms :
+  - navigation room : where you will be prompted to move from with the available
+                      directions                      
+  - soldier room : where you will have to fight the soldiers in this room
+                   and after you win you will be prompted to navigate from it
+                   (you can skip the fight only once)
+  - army room : where you will have to beat the army of the levels and after
+                you win you will be moved to the next level if it exists
+                (you can skip the fight only once)  
 
 Game Setup:
   - to play the game run `docker-compose run app ruby game/game.rb` and you will instructed what to do
